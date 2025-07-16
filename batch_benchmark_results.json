@@ -1,0 +1,25 @@
+{
+  "record_count": 100000,
+  "results": [
+    {
+      "batch_size": 100,
+      "time_sec": 0.6562,
+      "throughput_ops_per_s": 152386
+    },
+    {
+      "batch_size": 1000,
+      "time_sec": 0.4115,
+      "throughput_ops_per_s": 243020
+    },
+    {
+      "batch_size": 5000,
+      "time_sec": 0.4135,
+      "throughput_ops_per_s": 241857
+    },
+    {
+      "batch_size": 10000,
+      "time_sec": 0.4301,
+      "throughput_ops_per_s": 232500
+    }
+  ]
+}

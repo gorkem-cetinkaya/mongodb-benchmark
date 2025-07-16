@@ -1,0 +1,9 @@
+bm-env/
+
+__pycache__/
+*.pyc
+
+data_*.json
+
+!benchmark_results.json
+!batch_benchmark_results.json
