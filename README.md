@@ -59,6 +59,13 @@ Farklı batch boyutları için sonuçları batch_benchmark_results.json dosyası
 |    1 000 000 |           5.4621 |           2.9566 |           1.8106 |
 |   10 000 000 |          90.9152 |          31.5511 |          19.7777 |
 
+| Batch Boyutu | Süre (sn) |
+| -----------: | --------: |
+|          100 |    0.6562 |
+|        1 000 |    0.4115 |
+|        5 000 |    0.4135 |
+|       10 000 |    0.4301 |
+
 JSON dosyalarını pandas, jq veya MongoDB Compass ile inceleyebilirsiniz.
 Detaylı rapor ve grafikler için: REPORT.md
 
