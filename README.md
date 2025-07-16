@@ -12,30 +12,41 @@ Bu repoda, MongoDB üzerinde farklı CRUD ve batch insert senaryolarının bench
 ## Kurulum
 
 1. Repoyu klonlayın:
-   ```bash
+     ```bash
    git clone https://github.com/gorkem-cetinkaya/mongodb-benchmark.git
    cd mongodb-benchmark
+   ```
 
 2. Python sanal ortamı oluşturun ve aktifleştirin:
+   ```bash
    python3 -m venv bm-env
-   source bm-env/bin/activate  # macOS/Linux
-   .\bm-env\Scripts\activate  # Windows
+   source bm-env/bin/activate   # macOS / Linux
+   # .\bm-env\Scripts\activate  # Windows
+   ```
    
 3. Gerekli paketleri yükleyin:
+   ```bash
    pip install pymongo faker
+   ```
 
 ## Kullanım
 
-1) Veri Üretimi
-python generate_data.py
+1. Veri Üretimi
+   ```bash
+   python generate_data.py
+   ```
 1 000 – 10 000 000 arası data_{n}.json dosyaları üretir.
 
 2. CRUD Benchmark
+   ```bash
    python benchmark.py
+   ```
 Tüm ölçümleri benchmark_results.json dosyasına yazar.
 
 3. Batch Size Benchmark
+   ```bash
    python batch_benchmark.py
+   ```
 Farklı batch boyutları için sonuçları batch_benchmark_results.json dosyasına yazar.
 
 ## Sonuçları Görüntüleme
