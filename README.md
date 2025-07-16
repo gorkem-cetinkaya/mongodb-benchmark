@@ -67,7 +67,7 @@ Farklı batch boyutları için sonuçları batch_benchmark_results.json dosyası
 |       10 000 |    0.4301 |
 
 JSON dosyalarını pandas, jq veya MongoDB Compass ile inceleyebilirsiniz.
-Detaylı rapor ve grafikler için: REPORT.md
+Detaylı rapor ve grafikler için: [REPORT.md](./REPORT.md)
 
 
 
