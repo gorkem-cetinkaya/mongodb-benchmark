@@ -51,6 +51,14 @@ Farklı batch boyutları için sonuçları batch_benchmark_results.json dosyası
 
 ## Sonuçları Görüntüleme
 
+| Kayıt Sayısı | Insert Süre (sn) | Update Süre (sn) | Delete Süre (sn) |
+| -----------: | ---------------: | ---------------: | ---------------: |
+|        1 000 |           0.0082 |           0.0089 |           0.0072 |
+|       10 000 |           0.0449 |           0.0313 |           0.0198 |
+|      100 000 |           0.4144 |           0.3317 |           0.1830 |
+|    1 000 000 |           5.4621 |           2.9566 |           1.8106 |
+|   10 000 000 |          90.9152 |          31.5511 |          19.7777 |
+
 JSON dosyalarını pandas, jq veya MongoDB Compass ile inceleyebilirsiniz.
 Detaylı rapor ve grafikler için: REPORT.md
 
